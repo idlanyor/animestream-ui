@@ -77,7 +77,7 @@ export function Navbar() {
             </div>
           </div>
           <span className="text-xl font-black tracking-tighter hidden sm:inline-block">
-            KANATA<span className="text-[#ac4bff]">ANIME</span>
+            KANATA<span className="text-[#ac4bff]">NIME</span>
           </span>
         </Link>
 
@@ -152,7 +152,7 @@ export function Navbar() {
                 <div className="flex flex-col h-full">
                   <div className="p-6 border-b border-border flex items-center justify-between">
                      <span className="text-xl font-black tracking-tight">
-                        KANATA<span className="text-[#ac4bff]">ANIME</span>
+                        KANATA<span className="text-[#ac4bff]">NIME</span>
                      </span>
                      <SheetClose className="rounded-full p-2 hover:bg-accent transition-colors">
                         <X className="h-5 w-5" />

@@ -34,7 +34,7 @@ export function Footer() {
                 </div>
               </div>
               <span className="text-xl font-black tracking-tighter">
-                KANATA<span className="text-[#ac4bff]">ANIME</span>
+                KANATA<span className="text-[#ac4bff]">NIME</span>
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
@@ -128,7 +128,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {currentYear} KanataAnime. All rights reserved.
+              © {currentYear} KanataNime. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground flex items-center gap-1">
               Made with <Heart className="h-3.5 w-3.5 text-[#ac4bff] fill-[#ac4bff] animate-pulse" /> by Kanata Team

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AnimeStream - Watch Your Favorite Anime",
+  title: "KanataNime - Watch Your Favorite Anime",
   description: "Functional mockup for anime streaming website",
 };
 

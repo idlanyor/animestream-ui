@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KanataNime
 
-## Getting Started
+KanataNime adalah platform streaming anime modern yang cepat, responsif, dan ringan. Dibangun dengan teknologi terbaru Next.js 15 dan Tailwind CSS 4, proyek ini menawarkan pengalaman menonton anime yang mulus dengan antarmuka yang bersih.
 
-First, run the development server:
+## Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home Dashboard**: Menampilkan anime terbaru, populer, film, dan batch terbaru.
+- **Detail Anime**: Informasi lengkap mengenai anime termasuk sinopsis, rating, genre, studio, dan daftar episode.
+- **Video Player**: Pemutar video kustom yang mendukung pemilihan server streaming.
+- **Pencarian Canggih**: Temukan anime favorit Anda dengan fitur pencarian yang cepat.
+- **Jadwal Rilis**: Pantau jadwal rilis anime harian.
+- **Genre & Kategori**: Telusuri anime berdasarkan genre, status (Ongoing/Completed), atau tipe (TV/Movie).
+- **Responsive Design**: Tampilan yang dioptimalkan untuk perangkat mobile, tablet, dan desktop.
+- **Dark Mode Support**: Nyaman di mata dengan dukungan tema gelap/terang.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teknologi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Bahasa**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) & [Radix UI](https://www.radix-ui.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Data Fetching**: Native Fetch API dengan Next.js Cache & Revalidation.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Persiapan Pengembangan
 
-## Learn More
+### Prasyarat
+- Node.js 18.x atau versi terbaru.
+- npm atau yarn.
 
-To learn more about Next.js, take a look at the following resources:
+### Instalasi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Klon repositori ini:
+   ```bash
+   git clone https://github.com/username/kanatanime.git
+   cd kanatanime
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Instal dependensi:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Jalankan server pengembangan:
+   ```bash
+   npm run dev
+   ```
+   Buka [http://localhost:3090](http://localhost:3090) di browser Anda.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Struktur Folder
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app/`: Routing utama menggunakan Next.js App Router.
+- `src/components/`: Komponen UI yang dapat digunakan kembali (Navbar, Footer, Video Player).
+- `src/components/ui/`: Komponen dasar dari shadcn/ui.
+- `src/lib/`: Utilitas dan logika pengambilan data (API integration).
+- `public/`: Aset statis seperti gambar dan ikon.
+
+## Lisensi
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+## Kontak & Dukungan
+
+Jika Anda memiliki pertanyaan atau ingin mendapatkan update terbaru, hubungi kami melalui:
+
+- **WhatsApp Channel**: [Gabung Saluran](https://www.whatsapp.com/channel/0029VagADOLLSmbaxFNswH1m)
+- **Sosial Media (Threads, FB, IG)**: [@kang.potokopi](https://instagram.com/kang.potokopi)
+- **Email**: support@kanata.web.id

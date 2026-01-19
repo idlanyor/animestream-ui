@@ -44,7 +44,7 @@ export default async function Home() {
             {featured.title}
           </h1>
           <p className="text-muted-foreground text-sm md:text-lg mb-10 line-clamp-3 max-w-2xl leading-relaxed drop-shadow-md">
-            {featured.description || "Watch the latest episodes of " + featured.title + " on KanataAnime."}
+            {featured.description || "Watch the latest episodes of " + featured.title + " on KanataNime."}
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="h-12 px-8 text-sm font-bold rounded-lg bg-[#ac4bff] text-primary-foreground hover:bg-[#9810fa] transition-all shadow-lg shadow-[#ac4bff]/20 border-none" asChild>
