@@ -33,7 +33,7 @@ KanataNime adalah platform streaming anime modern yang cepat, responsif, dan rin
 
 1. Klon repositori ini:
    ```bash
-   git clone https://github.com/username/kanatanime.git
+   git clone https://github.com/idlanyor/kanatanime.git
    cd kanatanime
    ```
 
